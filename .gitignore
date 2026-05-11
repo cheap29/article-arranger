@@ -1,0 +1,68 @@
+# ── 依存関係 ────────────────────────────────────────────────────────────────
+node_modules/
+.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# ── ビルド成果物 ─────────────────────────────────────────────────────────────
+dist/
+build/
+out/
+.next/
+.nuxt/
+.output/
+
+# ── 環境変数・シークレット（絶対にコミットしない） ──────────────────────────
+.env
+.env.local
+.env.development
+.env.development.local
+.env.test
+.env.test.local
+.env.production
+.env.production.local
+.env.staging
+
+# ── キャッシュ ───────────────────────────────────────────────────────────────
+.cache/
+.parcel-cache/
+.turbo/
+.vercel/
+.vite/
+
+# ── テスト・カバレッジ ────────────────────────────────────────────────────────
+coverage/
+*.lcov
+.nyc_output/
+
+# ── ログ ─────────────────────────────────────────────────────────────────────
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# ── OS生成ファイル ────────────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ── エディタ ─────────────────────────────────────────────────────────────────
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.swp
+*.swo
+*~
+
+# ── TypeScript ───────────────────────────────────────────────────────────────
+*.tsbuildinfo
+
+# ── パッケージマネージャーのロックファイル（プロジェクトの方針に合わせて調整） ──
+# yarn.lock      # yarn を使う場合はコメントアウト
+# pnpm-lock.yaml # pnpm を使う場合はコメントアウト
