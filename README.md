@@ -86,6 +86,8 @@ article-arranger/
 ├── .gitignore
 └── README.md
 ```
+<img width="1080" height="945" alt="image" src="https://github.com/user-attachments/assets/56c36bdb-1fa7-405f-bbec-c9f91a769802" />
+
 
 ## 使い方
 
