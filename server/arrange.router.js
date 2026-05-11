@@ -72,9 +72,10 @@ router.post("/fetch-article", async (req, res) => {
   }
 
   try {
-    const message = await client.messages.create({
+    const message = await client.beta.messages.create({
       model: MODEL,
       max_tokens: 1000,
+      betas: ["web-search-2025-03-05"],
       tools: [{ type: "web_search_20250305", name: "web_search" }],
       messages: [{
         role: "user",
